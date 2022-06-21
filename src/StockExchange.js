@@ -4,20 +4,22 @@ import StockDisplay from "./StockDisplay";
 function StockExchange () {
 
     const [stocks, setStocks] = useState([])
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState('')
 
     useEffect(() => {
-        fetch('http://localhost:8000/stocks') 
+        fetch(`http://localhost:8000/stocks`) 
         .then(resp => resp.json())
         .then(data => setStocks(data)) 
       }, []);
       console.log(stocks)
 
    
-
+    
       const displayCurrent = stocks.filter(stocksObj => {
         return stocksObj.name.toLowerCase().includes(search.toLowerCase())
       })
+
+
 
     return (
         <div>
@@ -32,7 +34,7 @@ function StockExchange () {
             />
             <button class=" fs-4 p-0">Search</button>
             <div>
-                <StockDisplay displayCurrent={displayCurrent}/>
+                <StockDisplay displayCurrent={displayCurrent} setStocks={setStocks} stocks={stocks}/>
             </div>
         </div>
     )

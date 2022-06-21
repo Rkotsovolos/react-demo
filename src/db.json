@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "name": "Starbucks Corp",
+            "name": "Starbucks",
             "price": "$72",
             "symbol": "SBUX",
             "high": "$126",
@@ -42,7 +42,7 @@
         },
         {
             "id": 6,
-            "name": "Alphabet Inc",
+            "name": "Alphabet",
             "price": "$2,239",
             "symbol": "GOOG",
             "high": "$2,253",
@@ -50,7 +50,7 @@
         },
         {
             "id": 7,
-            "name": "Netflix Inc",
+            "name": "Netflix",
             "price": "$171",
             "symbol": "NFLX",
             "high": "$700",
