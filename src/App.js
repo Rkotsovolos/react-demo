@@ -1,7 +1,6 @@
 
 import 'bootstrap';
 import './App.css';
-
 import Navbar from './Navbar.js';
 import Todo from './Todo';
 import StockExchange from './StockExchange'
@@ -12,9 +11,13 @@ import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
+
+  
+
   return (
     <div class="App">
       <h1>PCG Technology Labs</h1>
+
       <Navbar/>
       
       <Routes>

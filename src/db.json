@@ -1,0 +1,61 @@
+{
+    "stocks": [
+        {
+            "id": 1,
+            "name": "Amazon",
+            "price": "$110",
+            "symbol": "AMZN",
+            "high": "$188",
+            "low": "$107"
+        },
+        {
+            "id": 2,
+            "name": "Tesla",
+            "price": "$725",
+            "symbol": "TSLA",
+            "high": "$1,243",
+            "low": "$608"
+        },
+        {
+            "id": 3,
+            "name": "Dow Jones",
+            "price": "$30,493",
+            "symbol": "DJI",
+            "high": "$36,952",
+            "low": "$29,653"
+        },
+        {
+            "id": 4,
+            "name": "NASDAQ",
+            "price": "$11,112",
+            "symbol": "IXIC",
+            "high": "$16,212",
+            "low": "$10,565"
+        },
+        {
+            "id": 5,
+            "name": "Starbucks Corp",
+            "price": "$72",
+            "symbol": "SBUX",
+            "high": "$126",
+            "low": "$68"
+        },
+        {
+            "id": 6,
+            "name": "Alphabet Inc",
+            "price": "$2,239",
+            "symbol": "GOOG",
+            "high": "$2,253",
+            "low": "$2,185"
+        },
+        {
+            "id": 7,
+            "name": "Netflix Inc",
+            "price": "$171",
+            "symbol": "NFLX",
+            "high": "$700",
+            "low": "$162"
+        }
+
+    ]
+}
