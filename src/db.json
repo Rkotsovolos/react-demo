@@ -32,14 +32,7 @@
             "high": "$16,212",
             "low": "$10,565"
         },
-        {
-            "id": 5,
-            "name": "Starbucks",
-            "price": "$72",
-            "symbol": "SBUX",
-            "high": "$126",
-            "low": "$68"
-        },
+
         {
             "id": 6,
             "name": "Alphabet",

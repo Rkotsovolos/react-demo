@@ -6,6 +6,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+//This function "root" is grabbing the ID root from the div within index.html and it is Rendering the
+// components withn. (React.StrictMode, BrowserRouter, and App)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -2,6 +2,7 @@ import React from 'react';
 
 function MainContainer({stocks, stocksPrice, stocksHigh, stocksLow, stocksSymbol }) {
 
+    //returning the fetched data
     return(
         <div class="row row-cols-2">
             <div class="col">
